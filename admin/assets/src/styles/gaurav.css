@@ -1,0 +1,188 @@
+/*  side bar setting css */
+
+/* brand logo css */
+.logo{
+    mix-blend-mode: darken;
+    width: 75px;
+}
+
+/* .cardss{
+    width: 1240px;
+} */
+.my-invoice{
+    border: 2px solid black;
+    background-color: rgb(66, 66, 202);
+    color: white;
+    width: 50px;
+    border-radius: 25px;
+}
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  @media (max-width: 600px) {
+    th, td {
+      font-size: 14px;
+    }
+  }
+  .parent-invoice{
+    display: flex;
+    justify-content: space-around;
+  }
+  .product-image{
+
+    width: 30%;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 20px;
+
+  }
+
+  /* category add css */
+  /* @media (max-width: 1200px) {
+    .category-container {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+} */
+
+  .category-container {
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    
+}
+.category-form {
+    flex: 1;
+    padding: 20px;
+   
+    margin-left: 10px;
+    height: fit-content;
+}
+.category-form label, .category-form input[type="text"] {
+    display: block;
+    margin-bottom: 10px;
+ 
+    
+}
+
+.category-form input[type="text"], .category-form input[type="file"]{
+  border-radius: 5px;
+  width: 300px;
+  padding: 2px;
+  border: 1px solid gray;
+}
+.category-form input[type="file"]{
+ border-radius: 5px;
+  display: block;
+  background-color: white;
+  
+}
+/* add category button */
+.add-category{
+  margin-top: 20px;
+}
+
+.category-form input[type="submit"]{
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+.category-list {
+    flex: 2;
+    padding: 20px;
+  
+}
+.responsive-table {
+    width: 100%;    
+}
+.responsive-table th, .responsive-table td {
+    padding: 8px;
+    text-align: left;
+}
+.responsive-table tbody tr:hover{
+  background-color: #eaeef2;
+}
+.table-data-img{
+width: 10rem;
+}
+@media (max-width: 768px) {
+    .category-container {
+        flex-direction: column-reverse;
+    }
+    .category-form, .category-list {
+        border: none;
+        padding: 0;
+    }
+}
+/* mandatory css */
+.required:after {
+  content:" *";
+  color: red;
+}
+
+/* all subbmit button css */
+.add-btn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Styling for the button */
+.add-btn input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+.add-btn input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+.add-user-btn{
+  
+  margin-left: 403px;
+}
+.add-user-btn input[type="submit"]:hover{
+  background-color: #0056b3;
+}
+.add-user-btn input[type="submit"]{
+
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+ 
+}
